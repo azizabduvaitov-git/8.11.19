@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<html lang="ru">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="bonus.css">
+    </head>
+    <body>
+        <div class="a">
+            <p id="total" class="b">0</p>
+            <table>
+                <tr>
+                    <td><button>N!</button></td>
+                    <td><button onclick="zero()">AC</button></td>
+                    <td><button>+/-</button></td>
+                    <td><button>%</button></td>
+                    <td><button class="c">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="third()">N<sup>2</sup></button></td>
+                    <td><button onclick="first(7)" class="d">7</button></td>
+                    <td><button onclick="first(8)" class="d">8</button></td>
+                    <td><button onclick="first(9)" class="d">9</button></td>
+                    <td><button class="c">x</button></td>
+                </tr>
+                <tr>
+                    <td><button>N<sup>Y</sup></button></td>
+                    <td><button onclick="first(4)" class="d">4</button></td>
+                    <td><button onclick="first(5)" class="d">5</button></td>
+                    <td><button onclick="first(6)" class="d">6</button></td>
+                    <td><button class="c">-</button></td>
+                </tr>
+                <tr>
+                    <td><button>П</button></td>
+                    <td><button class="d" onclick="first(1)">1</button></td>
+                    <td><button onclick="first(2)" class="d">2</button></td>
+                    <td><button onclick="first(3)" class="d">3</button></td>
+                    <td><button onclick="second()" class="c">+</button></td>
+                </tr>
+                <tr>
+                    <td><button>e</button></td>
+                    <td colspan="2"><button class="d" >0</button></td>
+                    <td><button class="d">,</button></td>
+                    <td><button class="c">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <script src="bonus.js" defer></script>
+        
+    </body>
+</html>
