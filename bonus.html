@@ -22,31 +22,41 @@
                     <td><button onclick="first(7)" class="d">7</button></td>
                     <td><button onclick="first(8)" class="d">8</button></td>
                     <td><button onclick="first(9)" class="d">9</button></td>
-                    <td><button class="c">x</button></td>
+                    <td><button class="c" onclick="first('*')">x</button></td>
                 </tr>
                 <tr>
-                    <td><button>N<sup>Y</sup></button></td>
+                    <td><button onclick="second()">N<sup>3</sup></button></td>
                     <td><button onclick="first(4)" class="d">4</button></td>
                     <td><button onclick="first(5)" class="d">5</button></td>
                     <td><button onclick="first(6)" class="d">6</button></td>
-                    <td><button class="c">-</button></td>
+                    <td><button onclick="first('-')" class="c">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>П</button></td>
+                    <td><button onclick="first('Math.PI')">П</button></td>
                     <td><button class="d" onclick="first(1)">1</button></td>
                     <td><button onclick="first(2)" class="d">2</button></td>
                     <td><button onclick="first(3)" class="d">3</button></td>
-                    <td><button onclick="second()" class="c">+</button></td>
+                    <td><button onclick="first('+')" class="c">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>e</button></td>
+                    <td><button onclick="first('Math.E')">e</button></td>
                     <td colspan="2"><button class="d" >0</button></td>
                     <td><button class="d">,</button></td>
-                    <td><button class="c">=</button></td>
+                    <td><button onclick="solve()" class="c">=</button></td>
                 </tr>
             </table>
         </div>
-        <script src="bonus.js" defer></script>
+        <script>
+            "use script";
+function first(val) {
+    if(document.getElementById("total").innerHTML!=0){
+        document.getElementById("total").innerHTML+=val;
+    }
+    else{
+       document.getElementById("total").innerHTML = val; 
+    }
+}
+        </script>
         
     </body>
 </html>
