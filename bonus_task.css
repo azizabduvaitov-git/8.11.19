@@ -1,0 +1,34 @@
+.a{
+    background-color: rgb(50, 50, 50);
+    width: 354px;
+    height: 422px;
+}
+.b{
+    font-size: 45px;
+    color: white;
+    padding-left: 10px;
+    margin: 0;
+}
+td{
+    width: 70px;
+    height: 70px;
+}
+button{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(70, 70, 70);
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}
+.c{
+    background-color: darkorange;
+    border: 1px solid darkorange;
+}
+.d{
+    background-color: rgb(103, 103, 103);
+    border: 1px solid rgb(103, 103, 103);
+}
